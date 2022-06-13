@@ -1,0 +1,246 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Noverukun | Website Jual Beli Novel Online | Login</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="js/jquery.min.js"></script>
+</head>
+<body> 
+	<!--header-->
+	<div class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-left">
+					<ul class="support">
+						<li><a href="#"><label> </label></a></li>
+						<li><a href="contact.php">24x7 Chat<span class="live"> Bantuan</span></a></li>
+					</ul>
+					<ul class="support">
+						<li class="van"><a href="#"><label> </label></a></li>
+						<li><a href="#">Gratis Ongkir <span class="live">Pesanan diatas Rp.500.000</span></a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="top-header-right">
+					<div class="down-top">		
+						 <select class="in-drop">
+							<option value="English" class="in-of">English</option>
+							<option value="Japanese" class="in-of">Japanese</option>
+							<option value="Indonesia" class="in-of">Indonesia</option>
+						</select>
+					 </div>
+					<div class="down-top top-down">
+						  <select class="in-drop">
+						  
+						  <option value="Dollar" class="in-of">Dollar</option>
+						  <option value="Yen" class="in-of">Yen</option>
+						  <option value="Rupiah" class="in-of">Rupiah</option>
+							</select>
+					 </div>
+					<div class="clearfix"> </div>	
+				</div>
+				<div class="clearfix"> </div>		
+			</div>
+		</div>
+		<div class="bottom-header">
+			<div class="container">
+				<div class="header-bottom-left">
+					<div class="logo">
+						<a href="index.html"><img src="images/n2.png" alt=" " /></a>
+					</div>
+					<div class="search">
+						<form action="pencarian.php" method="get">
+							<input type="text" name="keyword">
+							<button type="submit" class="btn btn-primary">Search</button>
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="header-bottom-right">					
+						<div class="account"><a href="login.html"><span> </span>YOUR ACCOUNT</a></div>
+							<ul class="login">
+								<li><a href="login.html"><span> </span>LOGIN</a></li> |
+								<li ><a href="register.html">SIGNUP</a></li>
+							</ul>
+						<div class="cart"><a href="#"><span> </span>CART</a></div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+		</div>
+	</div>
+	<!---->
+	<div class="container">
+		
+      	   <div class="account_grid">
+			   <div class=" login-right">
+			  	<h3>REGISTERED USER</h3>
+				<p>Jika Anda memiliki akun, silahkan Login.</p>
+				<form>
+				  <div>
+					<span>Email Address<label>*</label></span>
+					<input type="text"> 
+				  </div>
+				  <div>
+					<span>Password<label>*</label></span>
+					<input type="text"> 
+				  </div>
+				  <a class="forgot" href="#">Forgot Your Password?</a>
+				  <input type="submit" value="Login">
+			    </form>
+			   </div>	
+			    <div class=" login-left">
+			  	 <h3>NEW USER</h3>
+				 <p>Silahkan membuat akun untuk menikmati pelayanan website kami.</p>
+				 <a class="acount-btn" href="register.html">Create an Account</a>
+			   </div>
+			   <div class="clearfix"> </div>
+			 </div>
+			 <div class="sub-cate">
+				<div class=" top-nav rsidebar span_1_of_left">
+					<h3 class="cate">GENRE</h3>
+	x <ul class="menu">
+				<li class="item1"><a href="#">Light Novel</li>
+				<li class="item2"><a href="#">Romance Novel </li>
+				<li class="item3"><a href="#">Action Novel</li>
+				<li class="item4"><a href="#">Sci-Fi Novel</li>
+		<li>
+			<ul class="kid-menu">
+				<li><a href="#">Slice of Life Novel</a></li>
+				<li ><a href="#">School Novel</a></li>
+				<li ><a href="#">Mystery Novel</a></li>
+			</ul>
+		</li>
+		<ul class="kid-menu ">
+			<li><a href="#">Comedy Novel</a></li>
+			<li ><a href="#">Horror Novel</a></li>
+			<li class="menu-kid-left"><a href="contact.html">Contact us</a></li>
+		</ul>
+		
+	</ul>
+					</div>
+				<!--initiate accordion-->
+		<script type="text/javascript">
+			$(function() {
+			    var menu_ul = $('.menu > li > ul'),
+			           menu_a  = $('.menu > li > a');
+			    menu_ul.hide();
+			    menu_a.click(function(e) {
+			        e.preventDefault();
+			        if(!$(this).hasClass('active')) {
+			            menu_a.removeClass('active');
+			            menu_ul.filter(':visible').slideUp('normal');
+			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			        } else {
+			            $(this).removeClass('active');
+			            $(this).next().stop(true,true).slideUp('normal');
+			        }
+			    });
+			
+			});
+		</script>
+					<div class=" chain-grid menu-chain">
+						<a href="single.html"><img class="img-responsive chain" src="images/goblin-slayer.jpg" alt=" " /></a>	   		     		
+						<div class="grid-chain-bottom chain-watch">
+							<span class="actual dolor-left-grid">Rp. 150.000</span>
+							<span class="reducedfrom">Rp. 200.000</span>  
+							<h6>Goblin Slayer Volume 1</h6>  		     			   		     										
+						</div>
+	   		     	</div>
+	   		     	 <a class="view-all all-product" href="product.html">VIEW ALL<span> </span></a> 	
+			</div>
+			  <div class="clearfix"> </div>
+      	 </div>
+	<!---->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="latter-right">
+					<p>FOLLOW US</p>
+					<ul class="face-in-to">
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span class="facebook-in"> </span></a></li>
+						<div class="clearfix"> </div>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom-cate">
+					<h6>Genre</h6>
+					<ul>
+						<li><a href="#">Light Novel</a></li>
+						<li><a href="#">Romance Novel</a></li>
+						<li><a href="#">Action Novel</a></li>
+						<li ><a href="#">Sci-Fi Novel</a></li>
+						<li ><a href="#">Slice of Life Novel</a></li>
+						<li><a href="#">School Novel</a></li>
+						<li><a href="#">Mystery Novel</a></li>
+						<li ><a href="#">Comedy Novel</a></li>
+						<li><a href="#">Horror Novel</a></li>
+					</ul>
+				</div>
+				<div class="footer-bottom-cate bottom-grid-cat">
+					<h6>BEST SELLING TITLES</h6>
+						<ul>
+							<li><a href="#">TENSEI SHITTARA SLIME DATTA KEN</a></li>
+							<li><a href="#">OVERLORD</a></li>
+							<li><a href="#">DUNGEON NI DEAI MOTOMERU NO WA MACHIGATTEIRU DAROU KA</a></li>
+							<li><a href="#">DATE A LIVE</a></li>
+							<li><a href="#">NO GAME NO LIFE</a></li>
+							<li><a href="#">SWORD ART ONLINE</a></li>
+							<li><a href="#">CLASSROOM OF THE ELITE</a></li>
+						</ul>
+				</div>
+				<div class="footer-bottom-cate">
+					<h6>BEST SELLING AUTHORS</h6>
+						<ul>
+							<li><a href="#">Kumo Kagyu</a></li>
+							<li><a href="#">Aneko Yusagi</a></li>
+							<li><a href="#">Ryo Shirakome</a></li>
+							<li><a href="#">Hiro Ainana</a></li>
+							<li><a href="#">Fuse</a></li>
+							<li><a href="#">Shogo Kinugasa</a></li>
+							<li><a href="#">Fujino Omori</a></li>
+							<li><a href="#">Tsutomu Sato</a></li>
+							<li><a href="#">Wataru Watari</a></li>
+							<li><a href="#">Kugane Maruyama</a></li>
+							<li><a href="#">Natsume Akatsuki</a></li>
+							<li><a href="#">Yu Kamiya</a></li>
+						</ul>
+				</div>
+				<div class="footer-bottom-cate cate-bottom">
+					<h6>ALAMAT KAMI</h6>
+						<ul>
+							<li>Jl.Veteran</li>
+							<li>Lowokwaru, Kota Malang</li>
+							<li>No. 08.</li>
+							<li class="phone">PH : 6985792466</li>
+							<li class="temp">
+								<p class="footer-class">Design by Matthew Kevin	</p>
+							</li>
+						</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
